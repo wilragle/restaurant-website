@@ -1,0 +1,87 @@
+body {
+	font-size: 16px;
+	color: #000000;
+	background-color: #c1c1c1;
+	font-family: "Montserrat", sans-serif;
+}
+
+/**header**/
+#header-nav {
+	background-color: #030e4d;
+	border-radius: 0;
+	border: 0;
+	min-height: 80px;
+}
+
+.navbar-brand {
+	height: 80px;
+	padding-top: 25px;
+}
+
+.navbar-brand h1{ /* Food, LLC */
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+ #nav-list {
+ 	background-color: #000000;
+ 	margin-top: 10px;
+ }
+
+ #nav-list a {
+ 	color: #ffffff;
+ 	text-align: center;
+ }
+
+ #nav-list a:hover {
+ 	background: #ffffff;
+ 	color: #000000;
+ }
+
+ #nav-list a span {
+ 	font-size: 1.8em;
+ }
+
+#our-menu {
+ 	font-size: 1.5em;
+ }
+
+ .container-fluid {
+ 	margin:0 10px 0 10px;
+ }
+
+ #chicken, #beef, #sushi {
+ 	background-color: #ffffff;
+ 	color: #000000;
+ 	margin-bottom:10px ;
+ 	margin-top: 10px;
+ 	padding: 10px;
+ 	height: 700px;
+ }
+
+ div h3 {
+ 	text-decoration: underline;
+ }
+
+ @media (max-width: 767px) {
+ 	.navbar-brand {
+ 		padding-top: 10px;
+ 		height: 80px;
+ 	}
+
+ 	.navbar-brand h1{
+ 		padding-top: 10px;
+ 		font-size: 4vw;
+ 	}
+ }
